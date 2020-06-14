@@ -36,4 +36,4 @@ print ("Broj dva se u listi prikazuje na", x+1 ,"mjestu")
 print (l.pop(1)) #izbacuje znak sa drugog mjesta te ga ispisuje
 print (l) 
 
-print (sum(l)) #zbraja brojeve u listi
+print (sum(l)) #zbraja sve brojeve u listi
