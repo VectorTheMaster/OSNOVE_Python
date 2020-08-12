@@ -1,8 +1,10 @@
-l = [1, 2 , 3] #primjer jedne liste
+l = [1, 2 , 3, 4, 5, 6] #primjer jedne liste
 print (l) #printa cijelu listu
 print (l[1]) #printa određenu poziciju u listi, u ovom slučaju drugu po redu (kreće od 0)
+print (l[-1]) #printa određenu poziciju na listi ali unatrag (kreće od -1)
 print (l[1:3]) #ispisuje od drugog do četvrtog (ne ubrajajući) znaka u listi, kreće od 0
 print (l[:2]) #ispisuje do trećeg člana (ne uključujući)
+print (l[0:6:2])  #ispisuje od prvog do petog člana ali sa razmakom dva   
 
 
 l.append(5) #dodaje u listu l na kraj još jedan znak
